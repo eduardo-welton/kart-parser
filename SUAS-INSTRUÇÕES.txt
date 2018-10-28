@@ -1,0 +1,17 @@
+Projeto desenvolvido em NodeJS:
+- Necessário ter instalado o Node (versão 8.12 ou posterior)
+
+Setup:
+`npm install` => Para instalar as dependências do projeto
+
+Execução:
+`node index.js <caminho_do_arquivo>`
+
+Execução de testes:
+`npm test`
+
+Comentários: 
+- O arquivo de entrada apresentou algumas pequenas variações, mas acho que com regex foi possível realizar um parser de maneira satisfatória.
+- Após o parser, normalizamos o tempo gasto (ao invés do formato de hora 00:00:00, transformamos em milésimos de segundos gastos), com isso, a maior parte dos problemas foi resolvido.
+- Gosto de tipagem e compilação (minha linguagem favorita é Golang), mas a flexibilidade que o javascript tem é maravilhosa se usada com alguma ordem e coerência, provavelmente eu levaria mais tempo criando classes.
+- Muito obrigado pela oportunidade, vocês são F#$@!!!!
